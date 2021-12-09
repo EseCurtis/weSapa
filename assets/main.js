@@ -3,6 +3,10 @@ const {Controllers} = require("controllers");
 const {appStyle} = require("appStyle");
 const {HexLoader} = require("hexLoader");
 
+if(!Controllers){
+    window.location.reload();
+}
+
 const amvcFlat = new AMVC();
 const AppControllers = new Controllers();
 
