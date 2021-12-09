@@ -509,7 +509,7 @@ function require(name) {
     //Get from cache
     let cached = LSC.getItem("node_app.json");
 
-    let appURL = location.protocol + "//" + location.host + "/app.json";
+    let appURL = location.protocol + "//" + location.host + "/weSapa/app.json";
 
     app = ajaxSync({
         url: appURL,
