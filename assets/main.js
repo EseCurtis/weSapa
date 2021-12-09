@@ -5,6 +5,7 @@ const {HexLoader} = require("hexLoader");
 
 if(!Controllers){
     window.location.reload();
+    console.clear();
 }
 
 const amvcFlat = new AMVC();
@@ -37,6 +38,7 @@ const routeApp = ()=>{
     if(location.hash.length > 0){
         if(!Router){
             window.location.reload();
+            console.clear();
         }
         let appRouter = Router([
             {
