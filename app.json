@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "cache": false,
-  "where":"../../modules/",
+  "where":"../../weSapa/modules/",
   "modules":{
       "controllers":"Controllers.js",
       "pages":"Pages.js",
